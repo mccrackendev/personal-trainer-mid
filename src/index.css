@@ -1,6 +1,24 @@
-*,
+:root {
+  --clr-primary: #030201;
+  --clr-secondary: #848f9a;
+  --clr-accent: #0aa1a4;
+}
+
 html,
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html,
+body,
+img {
+  width: 100%;
 }

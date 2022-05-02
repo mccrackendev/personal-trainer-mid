@@ -79,4 +79,70 @@ export const galleryContent = [
     videoSrc: gallerySampleVideo,
     videoType: "video/mp4",
   },
+  {
+    type: "image",
+    imageSrc: profileImage,
+    imageAlt: "lorem ipsum",
+    imageLegend: "lorem ipsum",
+  },
+  {
+    type: "video",
+    videoSrc: gallerySampleVideo,
+    videoType: "video/mp4",
+  },
+  {
+    type: "image",
+    imageSrc: profileImage,
+    imageAlt: "lorem ipsum",
+    imageLegend: "lorem ipsum",
+  },
+  {
+    type: "video",
+    videoSrc: gallerySampleVideo,
+    videoType: "video/mp4",
+  },
+  {
+    type: "image",
+    imageSrc: profileImage,
+    imageAlt: "lorem ipsum",
+    imageLegend: "lorem ipsum",
+  },
+  {
+    type: "video",
+    videoSrc: gallerySampleVideo,
+    videoType: "video/mp4",
+  },
+  {
+    type: "image",
+    imageSrc: profileImage,
+    imageAlt: "lorem ipsum",
+    imageLegend: "lorem ipsum",
+  },
+  {
+    type: "video",
+    videoSrc: gallerySampleVideo,
+    videoType: "video/mp4",
+  },
+  {
+    type: "image",
+    imageSrc: profileImage,
+    imageAlt: "lorem ipsum",
+    imageLegend: "lorem ipsum",
+  },
+  {
+    type: "video",
+    videoSrc: gallerySampleVideo,
+    videoType: "video/mp4",
+  },
+  {
+    type: "image",
+    imageSrc: profileImage,
+    imageAlt: "lorem ipsum",
+    imageLegend: "lorem ipsum",
+  },
+  {
+    type: "video",
+    videoSrc: gallerySampleVideo,
+    videoType: "video/mp4",
+  },
 ];

@@ -3,10 +3,11 @@ import Services from "../components/Services";
 import Testimonials from "../components/Testimonials";
 import { serviceData } from "../data/dummyData";
 import { testimonialsData } from "../data/dummyData";
+import styles from "./Home.module.css";
 
 const Home = () => {
   return (
-    <section>
+    <section className={styles.homeSection}>
       <Hero />
       <Services serviceData={serviceData} />
       <Testimonials testimonialsData={testimonialsData} />
