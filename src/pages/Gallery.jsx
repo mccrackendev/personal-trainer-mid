@@ -1,13 +1,17 @@
 import GalleryImage from "../components/GalleryImage";
 import GalleryVideo from "../components/GalleryVideo";
 import { galleryContent } from "../data/dummyData";
+import styles from "./Gallery.module.css";
+import { Instagram } from "react-bootstrap-icons";
 
 const Gallery = () => {
   return (
-    <div>
+    <section className={styles.gallerySection}>
       <h2>Gallery</h2>
-      <a href="/">Follow us on instagram</a>
-      <section>
+      <a href="/" className={styles.galleryInstagramLink}>
+        <Instagram /> Follow us on instagram
+      </a>
+      <div className={styles.gallerySectionGridWrapper}>
         {galleryContent.map((content) => {
           if (content.type === "image") {
             return (
@@ -29,8 +33,8 @@ const Gallery = () => {
           }
           return null;
         })}
-      </section>
-    </div>
+      </div>
+    </section>
   );
 };
 

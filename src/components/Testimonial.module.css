@@ -1,0 +1,20 @@
+.testimonial {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  box-shadow: 2px 2px 4px var(--clr-primary);
+  border-radius: 10px;
+}
+
+.testimonialImgWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.testimonialImgWrapper img {
+  border-radius: 50%;
+  width: 50%;
+}

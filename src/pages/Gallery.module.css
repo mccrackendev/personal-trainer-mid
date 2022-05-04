@@ -1,0 +1,29 @@
+.gallerySection {
+  padding: 1em;
+}
+
+.gallerySection h2 {
+  font-size: 2rem;
+  margin-top: 1em;
+}
+
+.galleryInstagramLink {
+  padding: 1em;
+  margin: 1em;
+  text-decoration: none;
+  color: var(--clr-primary);
+  border-bottom: 1px solid var(--clr-primary);
+}
+
+.galleryInstagramLink:hover,
+.galleryInstagramLink:focus {
+  color: var(--clr-accent);
+}
+
+.gallerySectionGridWrapper {
+  margin-top: 2em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-auto-flow: dense;
+  gap: 1em;
+}

@@ -1,0 +1,10 @@
+.serviceItem {
+  background-color: var(--clr-primary);
+  opacity: 0.8;
+  color: white;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, auto-fit);
+  box-shadow: 2px 2px 4px var(--clr-primary);
+  border-radius: 10px;
+}
